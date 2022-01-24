@@ -7,7 +7,7 @@ h1 {
 }
 
 h3 {
-  color: #2b294a;
+  color: white;
   padding: 15px;
 }
 ol {
@@ -42,10 +42,10 @@ a {
   color: white;
 }
 a:visited {
-  color: black;
+  color: white;
 }
 a:hover {
-  color: #f2ef1d;
+  color: white;
 }
 
 body {
