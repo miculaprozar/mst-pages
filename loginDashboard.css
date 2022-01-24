@@ -1,0 +1,38 @@
+h1 {
+  color: #2b294a;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 25px;
+}
+body {
+  background-color: white;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  width: 95vw;
+  height: 70vh;
+  padding: 0px;
+  margin top: 10px;
+}
+div {
+  text-align: center;
+  padding: 10px;
+}
+
+a {
+  color: #2b294a;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 15px;
+  border: 2px solid #2b294a;
+  font-family: sans-serif;
+  border-radius: 10px;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: #f15929;
+}
