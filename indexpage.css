@@ -7,13 +7,12 @@ h1 {
 }
 
 h3 {
-  color: white;
   font-family: sans-serif;
-  text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   padding: 5px 15px;
-  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000,
-    1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+  /* text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, */
+  /* 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000; */
+  max-height: 40px;
 }
 ol {
   padding: 25px;
@@ -24,10 +23,29 @@ ol {
 }
 
 li {
-  text-align: center;
   display: inline-block;
-  margin-bottom: 10px;
-  /* width: 250px; */
+  margin-bottom: 30px;
+  margin-right: 10px;
+
+  width: 320px;
+  border: 2px solid rgb(143, 143, 143);
+  border-radius: 15px;
+  padding: 10px;
+  color: black !important;
+}
+
+li:hover {
+  background: #2b294a !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: sans-serif;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 26px;
+  color: #2b294a;
 }
 
 button {
@@ -41,27 +59,22 @@ button {
   border-radius: 15px;
   /* width: 32px;
   height: 32px; */
-  margin: auto;
+  margin-left: 12px;
   text-align: center;
 }
 
 a {
-  width: bold;
-  color: black;
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: none;
-  display: inline-block;
-  padding: 5px 10px;
-  padding: 5px 10px 5 10px;
-  filter: hue-rotate(160deg);
-}
-a:visited {
-  color: black;
-}
-a:hover {
-  color: black;
+  display: flex;
+  /* padding: 10px; */
+  height: 100%;
+  width: 100%;
+  align-items: center;
+
+  color: inherit;
 }
 
 body {
-  background-color: #00adef;
+  background-color: white;
 }
